@@ -75,7 +75,7 @@ enum Bones: CaseIterable {
             case .rightUpLegToRightLeg:
                 return "right_upLeg_joint"
             case .rightLegToRightFoot:
-                return "right_leg_join"
+                return "right_leg_joint"
         }
     }
     
