@@ -23,20 +23,20 @@ class BodySkeleton: Entity {
             
             switch jointName {
                 case "neck_1_joint", "neck_2_joint", "neck_3_joint", "neck_4_joint", "head_joint", "left_shoulder_1_joint", "right_shoulder_1_joint":
-                    jointRadius *= 0.5
+                    jointRadius *= 0.37
                 case "jaw_joint", "chin_joint", "left_eye_joint", "left_eyeLowerLid_joint", "left_eyeUpperLid_joint", "left_eyeball_joint", "nose_joint", "right_eye_joint", "right_eyeLowerLid_joint", "right_eyeUpperLid_joint", "right_eyeball_joint":
-                    jointRadius *= 0.2
+                    jointRadius *= 0.17
                     jointColor = .yellow
                 case _ where jointName.hasPrefix("spine_"):
-                    jointRadius *= 0.75
+                    jointRadius *= 0.57
                 case "left_hand_joint", "right_hand_joint":
-                    jointRadius *= 1
+                jointRadius *= 0.87
                     jointColor = .green
                 case _ where jointName.hasPrefix("left_hand") || jointName.hasPrefix("right_hand"):
-                    jointRadius *= 0.25
+                    jointRadius *= 0.17
                     jointColor = .yellow
                 case _ where jointName.hasPrefix("left_toes") || jointName.hasPrefix("right_toes"):
-                    jointRadius *= 0.5
+                    jointRadius *= 0.37
                     jointColor = .yellow
                 default:
                     jointRadius = 0.05
@@ -90,7 +90,7 @@ class BodySkeleton: Entity {
     
     private func createJoint(radius: Float, color: UIColor = .white) -> Entity {
         let mesh = MeshResource.generateSphere(radius: radius)
-        let material = SimpleMaterial(color: color, roughness: 0.8, isMetallic: false)
+        let material = SimpleMaterial(color: color, roughness: 0.37, isMetallic: true)
         let entity = ModelEntity(mesh: mesh, materials: [material])
         
         return entity
@@ -125,7 +125,7 @@ class BodySkeleton: Entity {
             size: [diameter, diameter, skeletonBone.length],
             cornerRadius: diameter / 2
         )
-        let material = SimpleMaterial(color: color, roughness: 0.5, isMetallic: true)
+        let material = SimpleMaterial(color: color, roughness: 0.47, isMetallic: true)
         let entity = ModelEntity(mesh: mesh, materials: [material])
         
         return entity
