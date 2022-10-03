@@ -12,6 +12,9 @@
 		41F7927328EB75C300A6C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F7927228EB75C300A6C54F /* Assets.xcassets */; };
 		41F7927628EB75C300A6C54F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F7927528EB75C300A6C54F /* Preview Assets.xcassets */; };
 		41F7927D28EB763200A6C54F /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7927C28EB763200A6C54F /* ARViewContainer.swift */; };
+		41F7928228EB773A00A6C54F /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7928128EB773A00A6C54F /* SkeletonJoint.swift */; };
+		41F7928428EB776600A6C54F /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7928328EB776600A6C54F /* SkeletonBone.swift */; };
+		41F7928628EB781F00A6C54F /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7928528EB781F00A6C54F /* Bones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		41F7927228EB75C300A6C54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F7927528EB75C300A6C54F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41F7927C28EB763200A6C54F /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		41F7928128EB773A00A6C54F /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		41F7928328EB776600A6C54F /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		41F7928528EB781F00A6C54F /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				41F7926E28EB75C300A6C54F /* Body_Tracking_ARApp.swift */,
 				41F7927028EB75C300A6C54F /* ContentView.swift */,
 				41F7927C28EB763200A6C54F /* ARViewContainer.swift */,
+				41F7928128EB773A00A6C54F /* SkeletonJoint.swift */,
+				41F7928328EB776600A6C54F /* SkeletonBone.swift */,
+				41F7928528EB781F00A6C54F /* Bones.swift */,
 				41F7927228EB75C300A6C54F /* Assets.xcassets */,
 				41F7927428EB75C300A6C54F /* Preview Content */,
 			);
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F7927128EB75C300A6C54F /* ContentView.swift in Sources */,
+				41F7928628EB781F00A6C54F /* Bones.swift in Sources */,
+				41F7928428EB776600A6C54F /* SkeletonBone.swift in Sources */,
 				41F7926F28EB75C300A6C54F /* Body_Tracking_ARApp.swift in Sources */,
 				41F7927D28EB763200A6C54F /* ARViewContainer.swift in Sources */,
+				41F7928228EB773A00A6C54F /* SkeletonJoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
