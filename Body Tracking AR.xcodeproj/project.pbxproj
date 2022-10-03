@@ -11,6 +11,7 @@
 		41F7927128EB75C300A6C54F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7927028EB75C300A6C54F /* ContentView.swift */; };
 		41F7927328EB75C300A6C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F7927228EB75C300A6C54F /* Assets.xcassets */; };
 		41F7927628EB75C300A6C54F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F7927528EB75C300A6C54F /* Preview Assets.xcassets */; };
+		41F7927D28EB763200A6C54F /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F7927C28EB763200A6C54F /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		41F7927028EB75C300A6C54F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41F7927228EB75C300A6C54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F7927528EB75C300A6C54F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F7927C28EB763200A6C54F /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				41F7926E28EB75C300A6C54F /* Body_Tracking_ARApp.swift */,
 				41F7927028EB75C300A6C54F /* ContentView.swift */,
+				41F7927C28EB763200A6C54F /* ARViewContainer.swift */,
 				41F7927228EB75C300A6C54F /* Assets.xcassets */,
 				41F7927428EB75C300A6C54F /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				41F7927128EB75C300A6C54F /* ContentView.swift in Sources */,
 				41F7926F28EB75C300A6C54F /* Body_Tracking_ARApp.swift in Sources */,
+				41F7927D28EB763200A6C54F /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = Z9NXKK53HS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so we can Augment your Reality.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = Z9NXKK53HS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so we can Augment your Reality.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
