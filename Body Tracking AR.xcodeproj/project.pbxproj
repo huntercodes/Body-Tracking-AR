@@ -62,12 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				41F7926E28EB75C300A6C54F /* Body_Tracking_ARApp.swift */,
-				41F7927028EB75C300A6C54F /* ContentView.swift */,
-				41F7927C28EB763200A6C54F /* ARViewContainer.swift */,
-				41F7928128EB773A00A6C54F /* SkeletonJoint.swift */,
-				41F7928328EB776600A6C54F /* SkeletonBone.swift */,
-				41F7928528EB781F00A6C54F /* Bones.swift */,
-				41F7928728EB7CF100A6C54F /* BodySkeleton.swift */,
+				41F7928B28EB865500A6C54F /* Views */,
+				41F7928A28EB860200A6C54F /* Skeleton */,
+				41F7928928EB85E000A6C54F /* ViewContainers */,
 				41F7927228EB75C300A6C54F /* Assets.xcassets */,
 				41F7927428EB75C300A6C54F /* Preview Content */,
 			);
@@ -80,6 +77,33 @@
 				41F7927528EB75C300A6C54F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F7928928EB85E000A6C54F /* ViewContainers */ = {
+			isa = PBXGroup;
+			children = (
+				41F7927C28EB763200A6C54F /* ARViewContainer.swift */,
+			);
+			path = ViewContainers;
+			sourceTree = "<group>";
+		};
+		41F7928A28EB860200A6C54F /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				41F7928128EB773A00A6C54F /* SkeletonJoint.swift */,
+				41F7928328EB776600A6C54F /* SkeletonBone.swift */,
+				41F7928528EB781F00A6C54F /* Bones.swift */,
+				41F7928728EB7CF100A6C54F /* BodySkeleton.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		41F7928B28EB865500A6C54F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41F7927028EB75C300A6C54F /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
